@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_content_lists",
+  "info": {
+    "singularName": "homepage-content-list",
+    "pluralName": "homepage-content-lists",
+    "displayName": "homePageData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "firstContentList": {
+      "displayName": "firstContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "first-content-list.first-content-list",
+      "required": true
+    },
+    "sliderList": {
+      "displayName": "sliderList",
+      "type": "component",
+      "repeatable": true,
+      "component": "slider-list.slider-list",
+      "required": true
+    },
+    "secondContentList": {
+      "displayName": "secondContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "second-content-list.second-content-list",
+      "required": true
+    },
+    "thirdContentList": {
+      "displayName": "thirdContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "third-content-list.third-content-list",
+      "required": true
+    },
+    "forthContentList": {
+      "displayName": "forthContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "forth-content-list.forth-content-list",
+      "required": true
+    },
+    "fifthContentList": {
+      "displayName": "fifthContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "fifth-content-list.fifth-content-list",
+      "required": true
+    },
+    "sixthContentText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

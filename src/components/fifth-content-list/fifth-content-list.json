@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_fifth_content_list_fifth_content_lists",
+  "info": {
+    "displayName": "fifthContentList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "firstButtonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "secondButtonTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

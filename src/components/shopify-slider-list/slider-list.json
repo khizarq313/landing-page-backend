@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shopify_slider_list_slider_lists",
+  "info": {
+    "displayName": "sliderList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "sliderImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "buttonTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

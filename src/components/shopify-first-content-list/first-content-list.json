@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shopify_first_content_list_first_content_lists",
+  "info": {
+    "displayName": "firstContentList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "firstButtonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "secondButtonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

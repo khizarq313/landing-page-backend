@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_first_content_list_first_content_lists",
+  "info": {
+    "displayName": "firstContentList",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "firstBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "secondBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "thirdBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "firstButtonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "secondButtonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "homeBanner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "mobileHomeBanner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

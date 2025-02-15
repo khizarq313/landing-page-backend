@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_slider_list_slider_lists",
+  "info": {
+    "displayName": "sliderList",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sliderHeading": {
+      "type": "string",
+      "required": true
+    },
+    "slidingImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

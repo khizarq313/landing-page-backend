@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_small_list_small_lists",
+  "info": {
+    "displayName": "smallList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

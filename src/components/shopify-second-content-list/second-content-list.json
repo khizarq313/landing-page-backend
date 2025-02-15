@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shopify_second_content_list_second_content_lists",
+  "info": {
+    "displayName": "secondContentList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "shopifyCard": {
+      "displayName": "shopifyCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "shopify-card.shopify-card",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shopify_card_shopify_cards",
+  "info": {
+    "displayName": "shopifyCard",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

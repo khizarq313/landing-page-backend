@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_shopify_third_content_list_third_content_lists",
+  "info": {
+    "displayName": "thirdContentList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "firstBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "secondBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "thirdBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "forthBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "fifthBulletText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

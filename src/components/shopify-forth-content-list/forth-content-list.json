@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_shopify_forth_content_list_forth_content_lists",
+  "info": {
+    "displayName": "forthContentList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "firstBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "secondBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "thirdBulletText": {
+      "type": "string",
+      "required": true
+    },
+    "buttonTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

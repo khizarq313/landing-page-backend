@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shopify_store_page_all_data",
+  "info": {
+    "singularName": "shopify-store-page-data",
+    "pluralName": "shopify-store-page-all-data",
+    "displayName": "ShopifyStorePageData "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "firstContentList": {
+      "displayName": "firstContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "shopify-first-content-list.first-content-list",
+      "required": true
+    },
+    "secondContentList": {
+      "displayName": "secondContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "shopify-second-content-list.second-content-list",
+      "required": true
+    },
+    "thirdContentList": {
+      "displayName": "thirdContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "shopify-third-content-list.third-content-list",
+      "required": true
+    },
+    "sliderList": {
+      "displayName": "sliderList",
+      "type": "component",
+      "repeatable": true,
+      "component": "shopify-slider-list.slider-list",
+      "required": true
+    },
+    "forthContentList": {
+      "displayName": "forthContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "shopify-forth-content-list.forth-content-list",
+      "required": true
+    },
+    "fifthContentList": {
+      "displayName": "fifthContentList",
+      "type": "component",
+      "repeatable": true,
+      "component": "shopify-fifth-content-list.fifth-content-list",
+      "required": true
+    },
+    "sixthContentList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shopify-sixth-content-list.sixth-content-list",
+      "required": true
+    }
+  }
+}

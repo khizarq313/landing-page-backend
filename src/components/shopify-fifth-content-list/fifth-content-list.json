@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shopify_fifth_content_list_fifth_content_lists",
+  "info": {
+    "displayName": "fifthContentList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "smallCard": {
+      "displayName": "smallCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "small-card.small-card",
+      "required": true
+    },
+    "buttonTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

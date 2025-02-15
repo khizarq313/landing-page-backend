@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_content_lists",
+  "info": {
+    "singularName": "footer-content-list",
+    "pluralName": "footer-content-lists",
+    "displayName": "footerContentList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "sectionHeading": {
+      "type": "string",
+      "required": true
+    },
+    "firstButtonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "secondButtonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "thirdButtonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "copyrightText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

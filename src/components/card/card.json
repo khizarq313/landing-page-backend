@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_card_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "firstBulletPoint": {
+      "type": "string",
+      "required": true
+    },
+    "secondBulletPoint": {
+      "type": "string",
+      "required": true
+    },
+    "thirdBulletPoint": {
+      "type": "string",
+      "required": true
+    },
+    "forthBulletPoint": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
